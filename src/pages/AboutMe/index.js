@@ -23,16 +23,19 @@ export default function AboutMe() {
       <MotionHeading
         mb={8}
         textAlign="center"
-        fontWeight="semibold"
+        fontWeight="light"
         color="#69705e"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
+        textDecor="underline"
+        textDecorationColor="#69705e"
+        textDecorationThickness="from-font"
       >
         Hakkımda
       </MotionHeading>
 
-      <Stack spacing={6} fontSize="md" color="#4f5446" lineHeight="1.7">
+      <Stack spacing={6} fontSize="md" color="#4f5446" lineHeight="1.7" fontWeight="light">
         {[
           "Bilgisayar Programcılığı alanında eğitim gören ve kendini sürekli geliştiren bir yazılım geliştiricisiyim. Eskişehir Teknik Üniversitesi’nde Bilgisayar Programcılığı bölümünde öğrenimimi tamamladım ve staj sürecim için aktif olarak fırsatlar arıyorum.",
           "Bunun öncesinde lisede Ömer Seyfettin Sağlık Meslek Lisesi’nden mezun oldum ve lise dönemimde 2018 Eylül - 2019 Haziran tarihleri arasında Buca Toplum Sağlığı Merkezi’nde sağlık teknikeri olarak staj yaptım. Bu deneyim, disiplin ve sorumluluk bilincimi güçlendirdi.",
@@ -71,13 +74,17 @@ export default function AboutMe() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 0.6 }}
             textAlign="center"
+            fontWeight="light"
+           
           >
             İletişim
           </MotionHeading>
-          <Stack spacing={2} textAlign="center" color="#525b4a" fontWeight="medium">
+          <Stack spacing={2} textAlign="center" color="#525b4a" fontWeight="normal">
             <MotionLink
               href="mailto:mervehediyeozen98@gmail.com"
               color="#69705e"
+              textDecoration="underline"
+              textDecorationThickness="from-font"
               isExternal
               whileHover={{ scale: 1.1, color: "#4a513d" }}
               transition={{ type: "spring", stiffness: 300 }}
@@ -87,6 +94,8 @@ export default function AboutMe() {
             <MotionLink
               href="tel:+905530846947"
               color="#69705e"
+              textDecoration="underline"
+               textDecorationThickness="from-font"
               isExternal
               whileHover={{ scale: 1.1, color: "#4a513d" }}
               transition={{ type: "spring", stiffness: 300 }}

@@ -326,8 +326,8 @@ export default function ProjectDetail() {
   }
 
   return (
-    <Box bg="#eff2e9">
-    <Box maxW="1350px" mx="auto" p="50px" bg="#e5ebda" border="1px" borderColor="#bfc9a9">
+    <Box bg="#eff2e9"  pt="20px">
+    <Box maxW="1350px" mx="auto" p="50px" pt="60px" bg="#e5ebda" border="1px" borderColor="#bfc9a9">
         <Flex flexDirection="row" justifyContent="space-between">
             <Box>
       <Heading mb={4} fontWeight="light" color="#767d68">{project.title}</Heading>

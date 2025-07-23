@@ -1,5 +1,5 @@
 import { Flex, Image, Text, Heading, Stack  , Box , Button} from "@chakra-ui/react";
-import myPhoto from "../../images/me/me1.jpeg"
+import myPhoto from "../../images/me/me.jpeg"
 import { useNavigate } from "react-router-dom";
 
 function About() {
