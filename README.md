@@ -6,5 +6,7 @@
 
 
 ### (Projects)
-![main](/projects.png) 
+![main](/projects1.png) 
 
+### (Projects Detail)
+![main](/projectdetail.png) 
