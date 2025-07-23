@@ -1,5 +1,5 @@
 import { Flex, Image, Text, Heading, Stack  , Box , Button} from "@chakra-ui/react";
-import me from '../../images/me.jpeg'
+import myPhoto from "../../images/me/me1.jpeg"
 import { useNavigate } from "react-router-dom";
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
       gap={10}
     >
       <Image
-        src={me}
+        src={myPhoto}
         alt="Profile"
         boxSize="250px"
         objectFit="cover"

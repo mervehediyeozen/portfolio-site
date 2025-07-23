@@ -37,8 +37,8 @@ export default function AboutMe() {
           "Bilgisayar Programcılığı alanında eğitim gören ve kendini sürekli geliştiren bir yazılım geliştiricisiyim. Eskişehir Teknik Üniversitesi’nde Bilgisayar Programcılığı bölümünde öğrenimimi tamamladım ve staj sürecim için aktif olarak fırsatlar arıyorum.",
           "Bunun öncesinde lisede Ömer Seyfettin Sağlık Meslek Lisesi’nden mezun oldum ve lise dönemimde 2018 Eylül - 2019 Haziran tarihleri arasında Buca Toplum Sağlığı Merkezi’nde sağlık teknikeri olarak staj yaptım. Bu deneyim, disiplin ve sorumluluk bilincimi güçlendirdi.",
           "JavaScript, C#, Python, PHP (başlangıç-orta seviyede); SQL ve MySQL temel bilgisi; HTML5, CSS3 (ileri seviye), React, Redux, Context API; Chakra UI, Bootstrap; Visual Studio Code; Docker ve Kubernetes temel eğitimi.",
-          "Eskişehir Teknik Üniversitesi, Bilgisayar Programcılığı (Ön Lisans); Açıköğretim Fakültesi, Web Tasarımı (2 yıllık, devam ediyor); Patika.dev platformunda 2 seviye bootcamp tamamlama; İleri seviye JavaScript eğitimi (devam ediyor); Web teknolojileri üzerine 2-3 sertifika.",
-          "İngilizce: B2 (İleri orta seviye); İspanyolca: A1 (Başlangıç seviyesi)",
+          "Eskişehir Teknik Üniversitesi, Bilgisayar Programcılığı  Açıköğretim Fakültesi, Web Tasarımı ( devam ediyor); Patika.dev platformunda 2 seviye bootcamp tamamlama; İleri seviye JavaScript eğitimi (devam ediyor); Web teknolojileri üzerine 3 sertifika.",
+          "İngilizce: C1 (İleri orta seviye); İspanyolca: A1 (Başlangıç seviyesi)",
           "HackerRank ve npmjs.com platformlarında aktif kullanıcı; GitHub profilim üzerinden çeşitli projelerimi inceleyebilirsiniz; Staj ve kariyer hedeflerime yönelik aktif bir öğrenme ve gelişim sürecindeyim.",
         ].map((text, i) => (
           <MotionText
